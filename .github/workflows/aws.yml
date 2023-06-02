@@ -23,4 +23,4 @@ jobs:
     - name: Build, tag, and push image to Amazon ECR
       run: |
         aws s3 ls
-        aws s3 cp . s3://curdbucket1996/ --recursive
+        aws s3 cp . s3://crudbucket1996/ --recursive
